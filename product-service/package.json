@@ -1,0 +1,36 @@
+{
+  "name": "ecommerce-product-service",
+  "version": "1.0.0",
+  "description": "Product Management Microservice for E-Commerce Platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "pm2:start": "pm2 start index.js --name product-service",
+    "pm2:stop": "pm2 stop product-service",
+    "pm2:restart": "pm2 restart product-service",
+    "pm2:logs": "pm2 logs product-service"
+  },
+  "keywords": [
+    "product-service",
+    "microservices",
+    "rest-api",
+    "express",
+    "postgresql"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

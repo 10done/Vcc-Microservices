@@ -1,0 +1,62 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.development
+
+# PM2
+.pm2/
+*.pid
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Database
+*.sql.backup
+*.dump
+
+# VM specific
+*.vdi
+*.vmdk
+*.box
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Build files
+dist/
+build/
